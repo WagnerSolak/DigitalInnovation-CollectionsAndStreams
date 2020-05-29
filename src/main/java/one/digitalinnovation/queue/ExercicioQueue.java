@@ -1,4 +1,4 @@
-package one.digitalinnovation.list.exercicios;
+package one.digitalinnovation.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package one.digitalinnovation.list.exercicios;
+package one.digitalinnovation.list;
 
 import java.util.ArrayList;
 import java.util.Collections;

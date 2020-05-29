@@ -1,4 +1,4 @@
-package one.digitalinnovation.list;
+package one.digitalinnovation.queue;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -16,7 +16,7 @@ public class ExemploQueue {
         filaDeBanco.add("Roberto");
         filaDeBanco.add("Flávio");
         filaDeBanco.add("Anderson");
-        
+
         System.out.println(filaDeBanco);
 
         String clienteASerAtendido = filaDeBanco.poll(); //remove o primeiro da fila
