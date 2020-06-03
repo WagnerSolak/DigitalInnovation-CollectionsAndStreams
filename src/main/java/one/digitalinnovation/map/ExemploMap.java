@@ -72,7 +72,7 @@ public class ExemploMap {
         // Verifica o tamanho antes e depois de limpar o mapa
         System.out.println(campeosMundialFifa.size());
 
-        
+
         campeosMundialFifa.clear();
 
         System.out.println(campeosMundialFifa.size());
