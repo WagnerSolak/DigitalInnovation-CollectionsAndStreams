@@ -22,8 +22,12 @@ public class ExemploHashSet {
 
         System.out.println(notasAlunos);
 
+
+
         // Remove a nota do set
         notasAlunos.remove(3.8);
+
+
 
         System.out.println(notasAlunos);
 

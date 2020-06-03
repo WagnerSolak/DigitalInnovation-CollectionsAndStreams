@@ -8,7 +8,7 @@ import java.util.TreeSet;
 public class ExemploTreeSet {
 
     public static void main(String[] args) {
-
+        // TreeSet é performático para leitura, e mais lento para modificação pois tem a necessidade de reordenar após cada alteração.
         TreeSet<String> treeCapitais = new TreeSet<>(); // muito performatico para leitura, porém não para ordenação
 
         // Monta a árvore com as capitais

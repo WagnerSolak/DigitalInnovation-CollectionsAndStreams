@@ -1,5 +1,6 @@
 package one.digitalinnovation.set;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -9,6 +10,7 @@ public class ExemploLinkedHashSet {
     public static void main(String[] args) {
                                                                 // mantem a ordem de inserção, porém menos performático
         Set<Integer> sequenciaNumerica = new LinkedHashSet<>();  //manter a ordem de inserção, mais lenta! em rel. ao HashSet
+                                                                // deve ser utilizado em cenários onde é necessário manter a ordem dos elementos
 
         // Adiciona os números no set
         sequenciaNumerica.add(16);
@@ -42,5 +44,7 @@ public class ExemploLinkedHashSet {
 
         // Retorna se o set está vazio ou não
         System.out.println(sequenciaNumerica.isEmpty());
+
+
     }
 }
