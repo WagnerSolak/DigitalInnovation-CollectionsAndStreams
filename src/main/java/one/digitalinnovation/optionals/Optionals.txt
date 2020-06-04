@@ -1,0 +1,23 @@
+Optionals
+
+° Tratamento para valores que podem ser nulos
+
+° Possui 2 estados:
+-> Presente: construiu um optional com valor diferente de nulo
+-> Vazio:> estado inicial
+
+° Permite que você execute operações em valores que podem ser nulos sem a preocupação com as famosas NullPointerExceptions
+
+Implementação Optinal que possui métodos e retornar situação onde teria um momento que pode ser nulo.
+
+Ex.: data de demissão -> só possui data quando o mesmo for demetido, e até momento fica nulo.
+optional.of -> passando a data de demissão de um func. não demitido  -> retorna optional vazio
+
+° 3 forma de construir o Optional
+-> of:         constroi a partir do valor que foi passado por argumento::requireNonNull = value ==null -> NullPointerException
+-> ofNullable: constroi a partir do valor que foi passado por argumento::value == null constroi empty() ou of(value)
+-> empty:      constroi um optnional vazio
+
+Variável pode ser nula? usamos ofNullable
+Temos certeza que têm valor? usamos o of
+Construir do zero sem nenhum valor? usamos o empty
