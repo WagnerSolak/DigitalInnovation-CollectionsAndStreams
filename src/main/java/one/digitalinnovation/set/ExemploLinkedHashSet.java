@@ -9,9 +9,9 @@ public class ExemploLinkedHashSet {
 
     public static void main(String[] args) {
                                                                 // mantem a ordem de inserção, porém menos performático
-        Set<Integer> sequenciaNumerica = new LinkedHashSet<>();  //manter a ordem de inserção, mais lenta! em rel. ao HashSet
+        Set<Integer> sequenciaNumerica = new LinkedHashSet<>(); // manter a ordem de inserção, mais lenta! em rel. ao HashSet
                                                                 // deve ser utilizado em cenários onde é necessário manter a ordem dos elementos
-
+                                                                // LinkedHashSet deve ser utilizado em cenários onde é necessário manter a ordem dos elementos.
         // Adiciona os números no set
         sequenciaNumerica.add(16);
         sequenciaNumerica.add(2);

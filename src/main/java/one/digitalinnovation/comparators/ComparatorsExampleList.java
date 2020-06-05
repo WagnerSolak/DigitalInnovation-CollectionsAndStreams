@@ -19,6 +19,7 @@ public class ComparatorsExampleList {
         estudantes.add(new Estudante("George", 22));
         estudantes.add(new Estudante("Larissa", 21));
 
+        
         System.out.println("--- ordem de inserção---");
         System.out.println(estudantes);
 
@@ -53,6 +54,8 @@ public class ComparatorsExampleList {
 
         System.out.println(" --- ordem reversa dos números - idade (interface Comparator) ---");
         System.out.println(estudantes);
+
+
 
 
     }

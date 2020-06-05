@@ -24,8 +24,8 @@ public class ExemploTreeSet {
         // Retorna a primeira capital no topo da árvore
         System.out.println(treeCapitais.first());
 
-        //Retorna a pultima capital no final da árvore
-        System.out.println(treeCapitais.last());
+        //Retorna a ultima capital no final da árvore
+        System.out.println("last" + treeCapitais.last());
 
         // Retorna a primeira capital abaixo na árvore da capital parametrizada
         System.out.println(treeCapitais.lower("Florianópolis"));

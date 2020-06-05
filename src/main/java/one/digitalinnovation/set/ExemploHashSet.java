@@ -1,12 +1,13 @@
 package one.digitalinnovation.set;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
 public class ExemploHashSet {
-
-    public static void main(String[] args) {
+                                                    // adiciona numero no final se add apos implementar!
+    public static void main(String[] args) {        // HashSet não garante a ordem de inserção, não permite a reordenação, por isso é mais performático.
                                                     // não garante ordem porém performático
         Set<Double> notasAlunos = new HashSet<>();  // não garante a ordem que foi inserido -> para performance de leitura/adição/remoção de dados
 
@@ -20,14 +21,14 @@ public class ExemploHashSet {
         notasAlunos.add(3.8);
         notasAlunos.add(4.0);
 
+        notasAlunos.add(44.0);
+
+
+
         System.out.println(notasAlunos);
-
-
 
         // Remove a nota do set
         notasAlunos.remove(3.8);
-
-
 
         System.out.println(notasAlunos);
 
